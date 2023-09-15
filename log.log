@@ -1,0 +1,14 @@
+2022-10-13 16:10:04.451  INFO 29398 --- [main] r.m.m.MoneyTransferApplication           : Starting MoneyTransferApplication using Java 18.0.2.1 on vadim-desktop with PID 29398 (/home/vadim/Документы/IdeaProjects/CourseProjects/MoneyTransfer/target/classes started by vadim in /home/vadim/Документы/IdeaProjects/CourseProjects/MoneyTransfer)
+2022-10-13 16:10:04.453  INFO 29398 --- [main] r.m.m.MoneyTransferApplication           : No active profile set, falling back to 1 default profile: "default"
+2022-10-13 16:10:04.940  INFO 29398 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 5500 (http)
+2022-10-13 16:10:04.946  INFO 29398 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-13 16:10:04.946  INFO 29398 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-13 16:10:04.990  INFO 29398 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-13 16:10:04.990  INFO 29398 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 505 ms
+2022-10-13 16:10:05.223  INFO 29398 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 5500 (http) with context path ''
+2022-10-13 16:10:05.230  INFO 29398 --- [main] r.m.m.MoneyTransferApplication           : Started MoneyTransferApplication in 0.993 seconds (JVM running for 1.342)
+2022-10-13 16:11:02.258  INFO 29398 --- [http-nio-5500-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-13 16:11:02.258  INFO 29398 --- [http-nio-5500-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-10-13 16:11:02.259  INFO 29398 --- [http-nio-5500-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-10-13 16:11:02.375 ERROR 29398 --- [http-nio-5500-exec-1] r.m.m.h.ControllerExceptionHandler       : Insufficient funds
+2022-10-13 16:11:15.368  INFO 29398 --- [http-nio-5500-exec-4] r.m.m.service.MoneyTransferService       : Transfer 12, commission 0. Before: cardFromValue 100000, cardToValue 740000. After: cardFromValue 99988, cardToValue 740012.
